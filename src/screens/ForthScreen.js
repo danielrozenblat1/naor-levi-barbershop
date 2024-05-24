@@ -219,7 +219,7 @@ return <>
           {content.map((item, index) => (
             <div key={index}>
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`רגינה אטן לקוחה ממליצה מספר ${index + 1}`} />
+                <img src={item.src} className={styles.image1} alt={`נאור לוי לקוחה ממליצה מספר ${index + 1}`} />
               )}
               {/* {item.type === 'video' && (
                 <video
