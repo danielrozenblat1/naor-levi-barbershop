@@ -1,0 +1,101 @@
+.iconList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0% auto;
+    padding: 20px 0 40px 0;
+    width: 90%;
+  }
+  
+  .iconContent {
+    margin: 0 10px;
+    position: relative;
+    border:1px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .iconContent:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+  }
+  
+  .iconLink {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .iconContent:hover .iconLink {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  }
+  
+  .iconLink svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .iconContent:hover .iconLink {
+    color: white;
+  }
+  
+  .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .iconContent:hover .filled {
+    height: 100%;
+  }
+  
+  /* Customize background colors based on social media */
+  .iconContent a[data-social="LinkedIn"] .filled,
+  .iconContent a[data-social="LinkedIn"] ~ .tooltip {
+    background-color: #c3b8ff;
+  }
+  .iconContent a[data-social="facebook"] .filled,
+  .iconContent a[data-social="facebook"] ~ .tooltip {
+    background-color: #da9431;
+  }
+  .iconContent a[data-social="instagram"] .filled,
+  .iconContent a[data-social="instagram"] ~ .tooltip {
+    background-color: #ffa55b;
+  }
+  .iconContent a[data-social="whatsApp"] .filled,
+  .iconContent a[data-social="whatsApp"] ~ .tooltip {
+    background-color: #59d146;
+  }
+  

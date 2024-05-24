@@ -1,0 +1,548 @@
+.navBar {
+    background-color: none;;
+    width:90vw;
+    transform: translateX(5vw);
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+position: absolute;
+top:10%;
+
+    flex-direction: column;
+    z-index: 999;
+
+    justify-content: center;
+  }
+  
+  .navLinks {
+    list-style: none; /* הסרת נקודות מהרשימה */
+    
+    padding: 50px; /* ביטול ריווח ברירת מחדל */
+    flex-direction: row;
+    display: flex;
+    box-shadow: 0 0 8px 1px #222222;
+    margin:0 auto;
+    width:70%;
+    justify-content: space-evenly;
+    z-index: 999;
+  }
+  
+  .navLink {
+    font-family: "AssistantR"; /* הגדרת גופן AssistantR */
+    color: #000000; /* צבע טקסט שחור */
+    font-size: 1.2rem;
+    text-decoration: none; /* הסרת קו תחתון מהקישור */
+    padding: 0 30px; /* ריווח סביב הטקסט */
+    transition: all ease-out 1s;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+
+  }
+  
+  .navLink:hover {
+       border-bottom: 2px solid #333;
+ 
+  }
+
+  .underline {
+    height: 2px; /* גובה הפס */
+    background-color: rgb(0, 0, 0); /* צבע זהב */
+    width: 100%; /* רוחב מלא */
+    margin:5px auto
+  }
+  .image{
+    display: flex;
+    width: 30%;
+align-content: center;
+    object-fit: cover;
+    justify-content: center;
+    margin:2% auto;
+  }
+  .title{
+    display: flex;
+    font-size: 4rem;
+    margin:3% auto;
+    font-family: "Assistant";
+  }
+  .middle{
+    display: flex;
+    margin:0 auto;
+    width:90vw;
+    justify-content: center;
+    align-content: center;
+  }
+  .center{
+display: flex;
+justify-content: center;
+width:90vw;
+margin:0 auto
+  }
+  .button {
+    width: 20%;
+    background: none;
+    border: 2px solid #8b6a51; /* גוון חום עתיק */
+    font-family: "Assistant";
+    font-size: 20px;
+    cursor: pointer;
+    margin: 3% auto;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+    transition: all ease 1s;
+    color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+  }
+  
+  .button:hover {
+    background: #8b6a51; /* גוון חום עתיק לרקע */
+    box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+    transform: scale(1.1);
+    color: #fff; /* טקסט לבן */
+  }
+
+  @media only screen and (max-width: 350px) {
+
+    .navBar {
+        background-color: none;;
+        width:100%;
+  
+        display: flex;
+       justify-content: space-evenly;
+        align-items: center;
+    position: absolute;
+    top:10%;
+    transform: translateX(0);
+        flex-direction: column;
+        z-index: 999;
+    
+        justify-content: center;
+      }
+      
+      .navLinks {
+        list-style: none; /* הסרת נקודות מהרשימה */
+        
+        padding: 10px; /* ביטול ריווח ברירת מחדל */
+        flex-direction: row;
+        display: flex;
+        box-shadow: 0 0 8px 1px #222222;
+        margin:0 auto;
+        width:100%;
+        justify-content: space-evenly;
+        z-index: 999;
+      }
+      
+      .navLink {
+        font-family: "AssistantR"; /* הגדרת גופן AssistantR */
+        color: #000000; /* צבע טקסט שחור */
+        font-size: 0.8rem;
+        text-decoration: none; /* הסרת קו תחתון מהקישור */
+        padding: 0 5px; /* ריווח סביב הטקסט */
+        transition: all ease-out 1s;
+        cursor: pointer;
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
+    
+      }
+      
+      .navLink:hover {
+           border-bottom: 2px solid #333;
+     
+      }
+    
+      .underline {
+        height: 2px; /* גובה הפס */
+        background-color: rgb(0, 0, 0); /* צבע זהב */
+        width: 100%; /* רוחב מלא */
+        margin:5px auto
+      }
+      .image{
+        display: flex;
+        width: 70%;
+    align-content: center;
+        object-fit: cover;
+        justify-content: center;
+        margin:2% auto;
+      }
+      .title{
+        display: flex;
+        font-size: 4rem;
+        margin:3% auto;
+        font-family: "Assistant";
+      }
+      .middle{
+        display: flex;
+        margin:0 auto;
+        width:90vw;
+        justify-content: center;
+        align-content: center;
+      }
+      .center{
+    display: flex;
+    justify-content: center;
+    width:90vw;
+    margin:0 auto
+      }
+      .button {
+        width: 80%;
+        background: none;
+        border: 2px solid #8b6a51; /* גוון חום עתיק */
+        font-family: "Assistant";
+        font-size: 20px;
+        cursor: pointer;
+        margin: 3% auto;
+        padding: 0.5rem;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+        transition: all ease 1s;
+        color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+      }
+      
+      .button:hover {
+        background: #8b6a51; /* גוון חום עתיק לרקע */
+        box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+        transform: scale(1.1);
+        color: #fff; /* טקסט לבן */
+      }
+
+  }
+  @media only screen  and (min-width: 350px) and (max-width: 450px) {
+
+    .navBar {
+        background-color: none;;
+        width:100%;
+  
+        display: flex;
+       justify-content: space-evenly;
+        align-items: center;
+    position: absolute;
+    top:10%;
+    transform: translateX(0);
+        flex-direction: column;
+        z-index: 999;
+    
+        justify-content: center;
+      }
+      
+      .navLinks {
+        list-style: none; /* הסרת נקודות מהרשימה */
+        
+        padding: 10px; /* ביטול ריווח ברירת מחדל */
+        flex-direction: row;
+        display: flex;
+        box-shadow: 0 0 8px 1px #222222;
+        margin:0 auto;
+        width:100%;
+        justify-content: space-evenly;
+        z-index: 999;
+      }
+      
+      .navLink {
+        font-family: "AssistantR"; /* הגדרת גופן AssistantR */
+        color: #000000; /* צבע טקסט שחור */
+        font-size: 0.8rem;
+        text-decoration: none; /* הסרת קו תחתון מהקישור */
+        padding: 0 5px; /* ריווח סביב הטקסט */
+        transition: all ease-out 1s;
+        cursor: pointer;
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
+    
+      }
+      
+      .navLink:hover {
+           border-bottom: 2px solid #333;
+     
+      }
+    
+      .underline {
+        height: 2px; /* גובה הפס */
+        background-color: rgb(0, 0, 0); /* צבע זהב */
+        width: 100%; /* רוחב מלא */
+        margin:5px auto
+      }
+      .image{
+        display: flex;
+        width: 70%;
+    align-content: center;
+        object-fit: cover;
+        justify-content: center;
+        margin:2% auto;
+      }
+      .title{
+        display: flex;
+        font-size: 4rem;
+        margin:3% auto;
+        font-family: "Assistant";
+      }
+      .middle{
+        display: flex;
+        margin:0 auto;
+        width:90vw;
+        justify-content: center;
+        align-content: center;
+      }
+      .center{
+    display: flex;
+    justify-content: center;
+    width:80vw;
+    margin:0 auto
+      }
+      .button {
+        width: 80%;
+        background: none;
+        border: 2px solid #8b6a51; /* גוון חום עתיק */
+        font-family: "Assistant";
+        font-size: 20px;
+        cursor: pointer;
+        margin: 3% auto;
+        padding: 0.5rem;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+        transition: all ease 1s;
+        color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+      }
+      
+      .button:hover {
+        background: #8b6a51; /* גוון חום עתיק לרקע */
+        box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+        transform: scale(1.1);
+        color: #fff; /* טקסט לבן */
+      }
+
+  }
+  @media only screen  and (min-width: 450px) and (max-width: 550px) {
+
+   
+      .image{
+        display: flex;
+        width: 70%;
+    align-content: center;
+        object-fit: cover;
+        justify-content: center;
+        margin:2% auto;
+      }
+      
+      .middle{
+        display: flex;
+        margin:0 auto;
+        width:70vw;
+        justify-content: center;
+        align-content: center;
+      }
+      .center{
+    display: flex;
+    justify-content: center;
+    width:70vw;
+    margin:0 auto
+      }
+      .button {
+        width: 80%;
+        background: none;
+        border: 2px solid #8b6a51; /* גוון חום עתיק */
+        font-family: "Assistant";
+        font-size: 20px;
+        cursor: pointer;
+        margin: 3% auto;
+        padding: 0.5rem;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+        transition: all ease 1s;
+        color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+      }
+      
+      .button:hover {
+        background: #8b6a51; /* גוון חום עתיק לרקע */
+        box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+        transform: scale(1.1);
+        color: #fff; /* טקסט לבן */
+      }
+
+  }
+  @media only screen  and (min-width: 550px) and (max-width: 650px) {
+
+   
+    .image{
+      display: flex;
+      width: 70%;
+  align-content: center;
+      object-fit: cover;
+      justify-content: center;
+      margin:2% auto;
+    }
+    
+    .middle{
+      display: flex;
+      margin:0 auto;
+      width:60vw;
+      justify-content: center;
+      align-content: center;
+    }
+    .center{
+  display: flex;
+  justify-content: center;
+  width:60vw;
+  margin:0 auto
+    }
+    .button {
+      width: 80%;
+      background: none;
+      border: 2px solid #8b6a51; /* גוון חום עתיק */
+      font-family: "Assistant";
+      font-size: 20px;
+      cursor: pointer;
+      margin: 3% auto;
+      padding: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+      transition: all ease 1s;
+      color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+    }
+    
+    .button:hover {
+      background: #8b6a51; /* גוון חום עתיק לרקע */
+      box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+      transform: scale(1.1);
+      color: #fff; /* טקסט לבן */
+    }
+
+}
+@media only screen  and (min-width: 650px) and (max-width: 750px) {
+
+   
+    .image{
+      display: flex;
+      width: 65%;
+  align-content: center;
+      object-fit: cover;
+      justify-content: center;
+      margin:2% auto;
+    }
+    
+    .middle{
+      display: flex;
+      margin:0 auto;
+      width:70vw;
+      justify-content: center;
+      align-content: center;
+    }
+    .center{
+  display: flex;
+  justify-content: center;
+  width:55vw;
+  margin:0 auto
+    }
+    .button {
+      width: 80%;
+      background: none;
+      border: 2px solid #8b6a51; /* גוון חום עתיק */
+      font-family: "Assistant";
+      font-size: 20px;
+      cursor: pointer;
+      margin: 3% auto;
+      padding: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+      transition: all ease 1s;
+      color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+    }
+    
+    .button:hover {
+      background: #8b6a51; /* גוון חום עתיק לרקע */
+      box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+      transform: scale(1.1);
+      color: #fff; /* טקסט לבן */
+    }
+
+}
+
+@media only screen  and (min-width: 750px) and (max-width: 850px) {
+
+   
+    .image{
+      display: flex;
+      width: 60%;
+  align-content: center;
+      object-fit: cover;
+      justify-content: center;
+      margin:2% auto;
+    }
+    .middle{
+      display: flex;
+      margin:0 auto;
+      width:70vw;
+      justify-content: center;
+      align-content: center;
+    }
+    .center{
+  display: flex;
+  justify-content: center;
+  width:50vw;
+  margin:0 auto
+    }
+    .button {
+      width: 80%;
+      background: none;
+      border: 2px solid #8b6a51; /* גוון חום עתיק */
+      font-family: "Assistant";
+      font-size: 20px;
+      cursor: pointer;
+      margin: 3% auto;
+      padding: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+      transition: all ease 1s;
+      color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+    }
+    
+    .button:hover {
+      background: #8b6a51; /* גוון חום עתיק לרקע */
+      box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+      transform: scale(1.1);
+      color: #fff; /* טקסט לבן */
+    }
+
+}
+@media only screen  and (min-width: 850px) and (max-width: 950px) {
+
+   
+    .image{
+      display: flex;
+      width: 60%;
+  align-content: center;
+      object-fit: cover;
+      justify-content: center;
+      margin:2% auto;
+    }
+    .middle{
+      display: flex;
+      margin:0 auto;
+      width:70vw;
+      justify-content: center;
+      align-content: center;
+    }
+    .center{
+  display: flex;
+  justify-content: center;
+  width:50vw;
+  margin:0 auto
+    }
+    .button {
+      width: 80%;
+      background: none;
+      border: 2px solid #8b6a51; /* גוון חום עתיק */
+      font-family: "Assistant";
+      font-size: 20px;
+      cursor: pointer;
+      margin: 3% auto;
+      padding: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 1px #d4c0a1; /* גוון בז' בהיר */
+      transition: all ease 1s;
+      color: #0d0d0d; /* גוון בז' בהיר לטקסט */
+    }
+    
+    .button:hover {
+      background: #8b6a51; /* גוון חום עתיק לרקע */
+      box-shadow: 0 0 5px 1px #634d39; /* גוון חום כהה לצל */
+      transform: scale(1.1);
+      color: #fff; /* טקסט לבן */
+    }
+
+}
