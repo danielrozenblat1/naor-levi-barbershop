@@ -13,7 +13,9 @@ top:10%;
 
     justify-content: center;
   }
-  
+  .a{
+    text-decoration: none;
+  }
   .navLinks {
     list-style: none; /* הסרת נקודות מהרשימה */
     

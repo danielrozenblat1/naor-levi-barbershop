@@ -212,7 +212,7 @@ const ForthScreen=()=>{
 return <>
 <div className={styles.background}>
 
-<div className={styles.title}>אתה במרחק קליק מלהראות כמוהם</div>
+<div className={styles.title} id="לקוחות ממליצים">אתה במרחק קליק מלהראות כמוהם</div>
 
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
@@ -235,7 +235,7 @@ return <>
           ))}
         </Slider>
       </div>
-     <div className={styles.center}> <Button text="לעוד תספורות לחץ כאן"/></div>
+     <div className={styles.center}> <Button href="https://plannieapp.com/?name=מספרתנאורלוי"  text="לקביעת תור לחץ כאן"/></div>
       </div>
 
 </>

@@ -85,7 +85,7 @@ const SecondScreen=()=>{
         <div className={styles.rowReverse}>
       
 
-            <Button text="נאור, תראה לי עבודות שלך"/>
+            <Button  scrollTo="לקוחות ממליצים" text="נאור, תראה לי עבודות שלך"/>
         </div>
 
         </div>

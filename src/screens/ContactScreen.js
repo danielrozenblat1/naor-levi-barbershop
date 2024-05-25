@@ -43,8 +43,11 @@ const ContactScreen=()=>{
 {/* שעות פעילות */}
     <div className={styles.wrap}>
     <div className={styles.subTitle}>שעות פעילות</div>
-    <div className={styles.description}>ימים א'-ה' ------ 8:00-22:00</div>
-    <div className={styles.description}>יום ו ------ 8:00-14:00</div>
+    <div className={styles.description}>יום א' ------ 11:00-19:00</div>
+    <div className={styles.description}>יום ב' ------ 11:00-17:00</div>
+    <div className={styles.description}>יום ג' ------ 11:00-19:00</div>
+    <div className={styles.description}>יום ד',ה' ------ 11:00-22:00</div>
+    <div className={styles.description}>יום ו ------ 8:00-13:00</div>
     </div>
 
 {/* מספר טלפון וכתובת */}

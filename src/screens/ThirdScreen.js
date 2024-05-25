@@ -49,10 +49,10 @@ return <>
 <div className={styles.description}>לחץ על המפה לקישור ישיר לוייז</div>
 <div className={styles.row}>
 <PriceList/>
-<div className={styles.side}><img className={styles.image} src={map}/></div>
+<a  id="מיקום" className={styles.side} href="https://waze.com/ul/hsv8tzcxrg"><img className={styles.image} src={map}/></a></div>
 
-</div>
-<Button text="אני רוצה לקבוע תור"/>
+
+<Button href="https://plannieapp.com/?name=מספרתנאורלוי" text="אני רוצה לקבוע תור"/>
 </div>
 </>
 

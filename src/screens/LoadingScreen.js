@@ -30,7 +30,7 @@ const LoadingScreen=()=>{
           />
           </div>
           <div className={styles.title}>אין סבלנות :) ?</div>
-      <div className={styles.center}> <Button loading={true} text="לקביעת תור לחץ כאן"/></div>
+      <div className={styles.center}> <Button  href="https://plannieapp.com/?name=מספרתנאורלוי" loading={true} text="לקביעת תור לחץ כאן"/></div>
     </div>
     
     </>
