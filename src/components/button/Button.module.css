@@ -7,8 +7,8 @@
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #000e20;
-    background-color: #cea487;
+    color: #ffffff;
+    background-color: rgba(0,5,40,1);
 
    
     border-color: rgba(255, 234, 204, 0.333);
@@ -29,8 +29,8 @@
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #000e20;
-    background-color: #cea487;
+    color: #ffc13b;
+    background-color: rgba(0,5,40,1);
 
    
     border-color: rgba(255, 234, 204, 0.333);
@@ -44,9 +44,8 @@
    }
    
    .button:hover{
-    color: #00122a;
-
-    background-color: #fac695;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,5,40,1);
     box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgba(3, 44, 93, 0.48);
    }
    
