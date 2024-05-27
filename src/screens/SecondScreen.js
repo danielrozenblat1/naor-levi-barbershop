@@ -1,6 +1,6 @@
 import styles from "./SecondScreen.module.css"
 import naor from "../images/naorMain.png"
-import barber from "../components/icons/wired-lineal-1566-barber-pole.json"
+import barber from "../components/icons/wired-lineal-1566-barber-pole (1).json"
 import ScrollReveal from "scrollreveal"
 import { Player } from "@lordicon/react";
 import { useEffect, useRef } from "react";
