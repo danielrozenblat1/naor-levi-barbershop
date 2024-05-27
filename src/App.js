@@ -6,7 +6,7 @@ import PriceList from './components/mehiron/Mehiron';
 import ThirdScreen from './screens/ThirdScreen';
 import ForthScreen from './screens/ForthScreen';
 import ContactScreen from './screens/ContactScreen';
-
+import ByMe from "./components/ByMe/ByMe"
 function App() {
   return <>
   <FirstScreen/>
@@ -14,6 +14,7 @@ function App() {
  <ThirdScreen/>
  <ForthScreen/>
  <ContactScreen/>
+
   </>
 }
 

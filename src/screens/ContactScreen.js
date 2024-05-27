@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import SocialIcons from "../components/social/Social"
 import styles from "./ContactScreen.module.css"
 import ScrollReveal from "scrollreveal";
+import ByMe from "../components/ByMe/ByMe";
 
 const ContactScreen=()=>{
 
@@ -71,7 +72,9 @@ const ContactScreen=()=>{
 </div>
 
     </div>
+    <ByMe/>
     </div>
+    
     </>
 }
 export default ContactScreen
