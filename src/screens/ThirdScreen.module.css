@@ -40,7 +40,7 @@ width:50%;
 }
 .background{
     width:100%;
-    background: #222;
+    background: linear-gradient(159deg, rgba(1,0,42,1) 20%, rgba(82,82,82,1) 50%, rgba(1,0,42,1) 80%);
 
     display: flex;
     justify-content: center;
@@ -93,7 +93,7 @@ width:50%;
         }
         .background{
             width:100%;
-            background: #222;
+            background: linear-gradient(159deg, rgba(1,0,42,1) 20%, rgba(120,118,118,1) 50%, rgba(1,0,42,1) 80%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -148,7 +148,7 @@ width:50%;
         }
         .background{
             width:100%;
-            background: #222;
+            background: linear-gradient(159deg, rgba(1,0,42,1) 20%, rgba(120,118,118,1) 50%, rgba(1,0,42,1) 80%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -201,7 +201,7 @@ width:50%;
         }
         .background{
             width:100%;
-            background: #222;
+            background: linear-gradient(159deg, rgba(1,0,42,1) 20%, rgba(120,118,118,1) 50%, rgba(1,0,42,1) 80%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -254,7 +254,7 @@ width:50%;
         }
         .background{
             width:100%;
-            background: #222;
+            background: linear-gradient(159deg, rgba(1,0,42,1) 20%, rgba(120,118,118,1) 50%, rgba(1,0,42,1) 80%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -307,7 +307,7 @@ width:50%;
         }
         .background{
             width:100%;
-            background: #222;
+            background: linear-gradient(159deg, rgba(1,0,42,1) 20%, rgba(120,118,118,1) 50%, rgba(1,0,42,1) 80%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -359,7 +359,7 @@ width:50%;
         }
         .background{
             width:100%;
-            background: #222;
+            background: linear-gradient(159deg, rgba(1,0,42,1) 20%, rgba(120,118,118,1) 50%, rgba(1,0,42,1) 80%);
         
             display: flex;
             justify-content: center;
